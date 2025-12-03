@@ -208,11 +208,11 @@ body {
 }
 
 .watch-btn {
-  @apply flex items-center gap-4 mt-[1.2rem]
+  @apply flex flex-wrap items-center gap-4 mt-[1.2rem]
 }
 
 .watch-btn a {
-  @apply border border-[#db372d] text-center text-[#db372d] min-w-[80px] py-[6px] px-[20px] rounded-[6px] cursor-pointer hover:border-[#efecec] hover:text-[#efecec]
+  @apply border border-[#db372d] text-center whitespace-nowrap text-[#db372d] w-fit py-[6px] px-[20px] rounded-[6px] cursor-pointer hover:border-[#efecec] hover:text-[#efecec]
 }
 
 .box-trailer {
